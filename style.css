@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #03989e;
+    box-shadow: 0px 5px 35px #040404;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header input{
+    height: 40px;
+    width: 150px;
+    border-radius: 28px;
+    text-align: center;
+    background-color: rgb(25, 239, 171);
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, rgb(0, 0, 0))
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+body{
+    height: 100vh;
+    background-image: url(fundo\ do\ site.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.foto{
+    width: 80px;
+    height: 80px;
+    margin-left: 600px;
+}
+.perfil{
+    width: 70px;
+    height: 70px;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    margin-top: 17px;
+    right: 12px;
+}
+.cabeçalho{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color:#040404;
+    width: fit-content;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 800px;
+}
+.container{
+    display: flex;
+    justify-content: center;  
+    height: fit-content;
+   
+}
+.card{
+    background: #faf8fd;
+    width: 400px;
+    height: fit-content;
+    margin: 70px;  
+}
+.cover{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: 10px 0 15px;
+}
+
+.foto-feed{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: -10px 0 15px;
+    top:100px;
+}
+.container p{
+    margin-top: -50px;
+    margin-left: 80px;
+}
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25px;
+    height: 25px;
+    margin-top: 58px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.salve{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    margin-left: 358px;
+    margin-top: 5px;
+}
+.curtida{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+.input{
+    border:none;
+    background-color: rgb(142, 216, 216);
+    border-radius: 15px;
+    box-shadow: 1px -2px 25px 3px rgb(149, 146, 146);
+    padding: 10px 0px;
+    text-align: center;
+    margin-left: 10px;
+}

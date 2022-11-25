@@ -1,0 +1,19 @@
+body{
+    background-color: #b8b6b6 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.foto-perfil{
+    width: 180px;
+    filter: grayscale(1);
+    
+}
+.foto-perfil:hover{
+    cursor: pointer;
+    filter:grayscale(0);
+}
+.mais{
+    background-color: white;
+    margin: 150px;
+    margin-top: -8px;
+}
