@@ -18,7 +18,9 @@ window.addEventListener('DOMContentLoaded', e => {
                             const postagem = ` <div class="container">
                         <div class="card">
                             <div class="perfil">
-                                <img src="${user.image}" class="cover">
+                                <a href="perfil.html">
+                                    <img src="${user.image}" class="cover">
+                                </a>
                                 <p>@${user.username}</p>
                             
                             </div>
